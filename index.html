@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <LINK href="style.css" rel="stylesheet" type="text/css">
+    <title></title>
+</head>
+<body>
+    <div>
+    <div>
+      <div id="start">
+        <button id="btnstart" type="button" onclick="Start()" class="btn">Start Game</button>
+      </div>
+      <div id="message">Press Start Button</div>
+      <div id="output">
+        Dealer Hand : <span id="dValue"></span>
+        <div id="dealerHolder"></div>
+        Player Hand : <span id="pValue"></span>
+        <div id="playerHolder"></div>
+        <div id="myactions">
+          <button id="btnhold" type="button" onclick="cardAction('hold')" class="btn">Hold</button>
+          <button id="btnhit" type="button" onclick="cardAction('hit')" class="btn">Hit</button>
+        </div>
+        <div>
+          <button id="btndeal" type="button" onclick="dealNew()" class="btn">Deal</button>
+        </div>
+
+<script src="script.js"></script>
+</body>
+</html>
